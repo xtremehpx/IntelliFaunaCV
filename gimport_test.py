@@ -4,6 +4,7 @@ import os
 import sqlite3
 from gimport import DataImporter
 
+# python -m unittest gimport_test.py
 class TestDataImporter(unittest.TestCase):
     def setUp(self):
         # Sample data for testing with missing values
